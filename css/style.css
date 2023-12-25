@@ -3,7 +3,8 @@
 /* g setting */
 html,
 html * {
- box-sizing: border-box
+ box-sizing: border-box;
+ font-family: 'Rubik', 'sans-serif';
 }
 
 *:before,
@@ -77,3 +78,61 @@ li a {
 #header .current a {
  color: #32a0c2;
 }
+
+/* The Banner (Show Case) And newsletter*/
+#showcase {
+ min-height: 400px;
+ background-image: url(../img/cover.png);
+ background-size: cover;
+ text-align: justify;
+ color: white;
+ padding: 15px;
+}
+
+#showcase h2 {
+ margin-top: 100px;
+ font-size: 55px;
+ margin-bottom: 10px;
+}
+
+#newsletter {
+ padding: 15px 120px;
+ color: white;
+ background: grey;
+ flex-flow: row wrap;
+ justify-content: center;
+ align-content: center;
+ align-items: center;
+}
+
+#newsletter h1 {
+ float: right;
+}
+
+#newsletter form {
+ float: left;
+ margin-top: 15px;
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: center;
+ align-content: center;
+ align-items: center;
+}
+
+#newsletter input[type='email'] {
+ padding: 19px;
+ height: 25px;
+ width: 250px;
+ border: none;
+}
+
+.button {
+ height: 38px;
+ background: #ccc;
+ padding-left: 20px;
+ padding-right: 20px;
+ color: rgb(72, 69, 69);
+ border: none;
+ font-size: 24px;
+}
+
