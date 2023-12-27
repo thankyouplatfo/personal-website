@@ -51,6 +51,10 @@ main>section {
  font-size: 28px;
 }
 
+#branding h1 i {
+ vertical-align: sub;
+}
+
 /* nav */
 nav>ul {
  margin-top: 0px;
